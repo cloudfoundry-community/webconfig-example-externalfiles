@@ -1,0 +1,2 @@
+ connectionStrings:
+   MyDB: "Data Source=ProductionSQLServer;Initial Catalog=MyReleaseDB;User ID=xxxx;Password=xxxx"
