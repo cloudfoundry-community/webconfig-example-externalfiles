@@ -1,2 +1,12 @@
- connectionStrings:
-   MyDB: "Data Source=ProductionSQLServer;Initial Catalog=MyReleaseDB;User ID=xxxx;Password=xxxx"
+appSettings:
+  Setting1: "git prod setting"
+
+connectionStrings:
+   MyDB: "Data Source=GithubProdSQLServer;Initial Catalog=MyDB;User ID=xxxx;Password=xxxx"
+
+
+client:
+  Default_IMyLogService:
+    address: "git_prod_endpoint"
+    binding: "git_prod_binding"
+    bindingConfiguration: "git_prod_bindingConfiguration"
