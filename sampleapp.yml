@@ -1,1 +1,2 @@
-CommonSetting: "common setting from git"
+appSettings:
+  CommonSetting: "common setting from git"
